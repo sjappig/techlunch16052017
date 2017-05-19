@@ -1,0 +1,11 @@
+module Vallila {
+    struct Data {
+        string best8BallPlayer;
+        long beers;
+    };
+
+    interface VallilaService {
+        Data getData();
+        void setBeers(in long beers);
+    };
+};
